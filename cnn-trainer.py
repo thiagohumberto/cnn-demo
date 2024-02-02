@@ -64,7 +64,7 @@ def run():
     net = Net()
     print(net)
     
-    criterion = nn.CrossEntropyLoss()
+    criterion = nn.CrossEntropyLoss() #https://pytorch.org/docs/stable/generated/torch.nn.CrossEntropyLoss.html
     # optim.SGD → Implements stochastic gradient descent
     # lr = learning rate
     # momentum helps accelerate gradient vectors in the right directions, which leads to faster converging
